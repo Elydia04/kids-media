@@ -1,6 +1,3 @@
-import { url } from "inspector";
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>
@@ -15,7 +12,7 @@ export default function Home() {
 
         <div className="w-full h-full bg-white flex justify-center items-center " style={{background: `url('rubbing-hands-emoji.avif')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' , backgroundPosition:'50% 50%',}}>
           <div className=" p-3 bg-black rounded">
-          <h1 className="text-white font-bold text-xl">DIDDY'S #1 Favorite Site</h1>
+          <h1 className="text-white font-bold text-xl">DIDDY&#39;S #1 Favorite Site</h1>
           </div>
           <input type="type" 
           placeholder="Kids Online..."
